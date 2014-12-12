@@ -21,3 +21,4 @@ This is an application used both in the field offices and at HQ to manage enroll
 
 ## Documentation
 
+- [Installation notes](docs/install.md)
