@@ -2,8 +2,8 @@
 // Copyright 2014 myAgro. All Rights Reserved.
 //
 // Description:
-// - Checks for login credentials. If none found, show login form. Otherwise redirect.
-// - Also handle form POST from login form, and if valid, redirect.
+// - Logged in users only.
+// - Show main menu for managing contracts, receipts, and reports.
 include ('lock.php');
 ?>
 <!DOCTYPE html>
