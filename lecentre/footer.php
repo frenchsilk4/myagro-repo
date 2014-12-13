@@ -3,11 +3,13 @@
 //
 // Description: shared footer file for Le Centre application.
 ?>
+
+<div class="container">
+    <hr>
     <footer>
         <p>&copy; myAgro 2014</p>
     </footer>
-
-</div> <!-- /container -->
+</div>
 
 <script src="static/js/jquery-2.1.1.min.js"></script>
 <script src="static/js/bootstrap.min.js"></script>

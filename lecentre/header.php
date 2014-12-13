@@ -47,6 +47,3 @@
         </div>
     </div>
 </div>
-
-<!-- Page body -->
-<div class="container">

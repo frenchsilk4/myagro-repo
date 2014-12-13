@@ -8,6 +8,9 @@ include ('lock.php');
 include ('header.php');
 ?>
 
+<!-- Page body -->
+<div class="container">
 
+</div>
 
 <?php include ('footer.php'); ?>
