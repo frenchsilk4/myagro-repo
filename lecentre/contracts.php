@@ -13,30 +13,9 @@ session_start();
 
     <title>Nouveau Contrat</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="_css/jquery-ui.css" />
-
-  <link rel="stylesheet" type="text/css" href="_css/style.css">
-  <style type="text/css">
-     .round
-    {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    line-height: 30px;
-
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-
-    background-color: black;
-    color: white;
-    text-align: center;
-    font-size: 1em;
-    }
-    </style>
+    <link rel="stylesheet" type="text/css" href="_bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="_css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="_css/style.css" />
   </head>
 
   <body>
