@@ -188,7 +188,7 @@ if ($userlog == 'YES') {
 					$product_c = 'Mais PDS .25';
 					$pssql     = "SELECT salesforceID from products where name='$product_c'";
 					//var_dump($pssql);
-				} 
+				}
 				elseif($product_c == 'Mais HYB' && $packet_hectare >= 0.25){
 
 					$product_c = 'Mais HYB .25';

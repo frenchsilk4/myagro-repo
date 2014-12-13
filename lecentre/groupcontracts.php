@@ -119,7 +119,7 @@ session_start();
                     <td>
                       <input type="number" class='populateInput' id='presidente' name="presidente" value="" size="10" />
                     </td>
-                    <td><input type="number" class='populateInput' id='mobilisatrice' name="mobilisatrice" value="" size="10" /></td> 
+                    <td><input type="number" class='populateInput' id='mobilisatrice' name="mobilisatrice" value="" size="10" /></td>
                   </tr>
                   <tr>
                   <th>Jour de réunion</th>
@@ -170,9 +170,9 @@ session_start();
               <div class="col-md-4">
                 <input type="radio" name="bonus" value="DAP" />&nbsp;&nbsp;<img src="images/dap.png" width="74.5" height="74.5"/>
               </div>
-              
+
             </div>
-              
+
             </div>
             <div class="row">
                   <div class="col-md-12">
@@ -215,7 +215,7 @@ session_start();
         </div>
         <div class='col-md-6'>
           <div id='myagro_groupes' style="padding-right:5px">
-        
+
             <div>
                 <img class='space-image' src="images/whiteborderimage.png">
             </div>
@@ -224,7 +224,7 @@ session_start();
               <div class="myagro_clients">
                 <div id='clients_table' style="padding-bottom:2px;">
                   <table class="myagro_members" id="POITable">
-                      
+
                       <tr>
                         <td>Position</td>
                         <td>Code du Client</td>
