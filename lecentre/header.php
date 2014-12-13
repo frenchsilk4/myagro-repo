@@ -15,6 +15,7 @@
     <meta name="author" content="">
     <link rel="icon" href="static/images/myagrogreennotext3.ico">
     <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static/css/jumbotron.css">
     <link rel="stylesheet" type="text/css" href="static/css/style.css">
 </head>
 
