@@ -9,13 +9,13 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Nouveau Contrat</title>
 
-    <link rel="stylesheet" type="text/css" href="_bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="_css/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="_css/style.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/style.css" />
   </head>
 
   <body>
@@ -63,7 +63,7 @@ session_start();
             </div>
           </div>
           <div>
-            <img class='space-image' src="images/whiteborderimage.png">
+            <img class='space-image' src="static/images/whiteborderimage.png">
           </div>
           <div class="section1" id="cont1" style="padding-left:5px">
               <div id='myagro_id' style="width:50%;">
@@ -75,7 +75,7 @@ session_start();
                 </p>
               </div>
               <div id='myagro_addr' style="float:right; text-align:right;">
-                <img src="images/myagrogreen_2.png" style="width:85px; height:85px" alt="MyAgro">
+                <img src="static/images/myagrogreen_2.png" style="width:85px; height:85px" alt="MyAgro">
               </div>
               <div style="clear:both;"></div>
           </div>
@@ -139,7 +139,7 @@ session_start();
               </table>
             </div>
             <div>
-              <img class='space-image' src="images/whiteborderimage.png" style="height:10px;"/>
+              <img class='space-image' src="static/images/whiteborderimage.png" style="height:10px;"/>
             </div>
             <div id='myagro_kiva' style="clear:both;">
               <h6> CONDITIONS GENERALES:</h6>
@@ -170,7 +170,7 @@ session_start();
                   </div>
         </div>
         <div>
-            <img class='space-image' src="images/whiteborderimage.png">
+            <img class='space-image' src="static/images/whiteborderimage.png">
           </div>
           <h1> Choix des paquets 2015</h1>
           <p><b>Cliquez sur le bouton ci-dessous pour sélectionner un paquet et entrez les détails de l'emballage</b></p>
@@ -344,10 +344,10 @@ session_start();
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-        <script language="javascript" type="text/javascript" src="_js/jquery-2.1.1.min.js"></script>
-  <script language="javascript" type="text/javascript" src="_js/contratScript.js"></script>
-  <script language="javascript" type="text/javascript" src="_js/myagro_script.js"></script>
-    <script src="_bootstrap/js/bootstrap.min.js"></script>
-    <script src="_js/jquery-ui.js"></script>
+        <script language="javascript" type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
+  <script language="javascript" type="text/javascript" src="static/js/contratScript.js"></script>
+  <script language="javascript" type="text/javascript" src="static/js/myagro_script.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-ui.js"></script>
   </body>
 </html>

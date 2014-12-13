@@ -14,15 +14,15 @@ if ($userlog == 'YES') {
 																					    <meta name="viewport" content="width=device-width, initial-scale=1">
 																					    <meta name="description" content="">
 																					    <meta name="author" content="">
-																					    <link rel="icon" href="images/myagrogreennotext3.ico">
+																					    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
 																					    <title>Add contrats and groups</title>
 
 																					    <!-- Bootstrap core CSS -->
-																					    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+																					    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
 																					    <!-- Custom styles for this template -->
-																					    <link href="_css/style.css" rel="stylesheet">
+																					    <link href="static/css/style.css" rel="stylesheet">
 																					  </head>
 
 																					  <body>
@@ -329,10 +329,10 @@ if ($userlog == 'YES') {
 																					    <!-- Bootstrap core JavaScript
 																					    ================================================== -->
 																					    <!-- Placed at the end of the document so the pages load faster -->
-																					    <script src="_js/jquery-2.1.1.min.js"></script>
-																					    <script src="_bootstrap/js/bootstrap.min.js"></script>
+																					    <script src="static/js/jquery-2.1.1.min.js"></script>
+																					    <script src="static/js/bootstrap.min.js"></script>
 																					    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-																					    <script src="_js/ie10-viewport-bug-workaround.js"></script>
+																					    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
 																					  </body>
 																					</html>
 	<?php } else {header("location: contracts.php");}?>

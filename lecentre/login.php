@@ -50,19 +50,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Ngasene Contract System</title>
 
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="_css/style.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
     <div class="container">
         <form class="form-signin" role="form" action="" method="post">
-            <img src="images/myagrogreennotext.png" style="width: 190px; height: 184px;">
+            <img src="static/images/myagrogreennotext.png" style="width: 190px; height: 184px;">
             <h2 class="form-signin-heading">Please sign in</h2>
             <input type="email" name='username' class="form-control" placeholder="Email address" required autofocus>
             <input type="password" name='password' class="form-control" placeholder="Password" required>
@@ -70,8 +70,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </form>
     </div> <!-- /container -->
 
-<script src="_js/jquery-2.1.1.min.js"></script>
-<script src="_bootstrap/js/bootstrap.min.js"></script>
+<script src="static/js/jquery-2.1.1.min.js"></script>
+<script src="static/js/bootstrap.min.js"></script>
 
 </body>
 

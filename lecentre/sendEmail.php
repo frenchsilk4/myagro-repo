@@ -9,16 +9,16 @@ include ('lock.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Le Centre System</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="_css/jumbotron.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="_css/style.css">
+    <link href="static/css/jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
   </head>
 
   <body>

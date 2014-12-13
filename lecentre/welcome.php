@@ -14,16 +14,16 @@ include ('lock.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Le Centre System</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="_css/jumbotron.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="_css/style.css">
+    <link href="static/css/jumbotron.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
   </head>
 
   <body>
@@ -56,7 +56,7 @@ include ('lock.php');
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
-      <img src="images/CornImage143.jpg" class="img-responsive" alt="Responsive image" id="welcome_img">
+      <img src="static/images/CornImage143.jpg" class="img-responsive" alt="Responsive image" id="welcome_img">
     </div>
 
     <div class="container">
@@ -65,7 +65,7 @@ include ('lock.php');
       <div class="row">
 
         <div class="col-lg-4">
-          <img class="img-circle" src="images/training.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="static/images/training.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Contrats</h2>
           <p>Voici la section du contrat. Cliquez sur le bouton ci-dessous pour créer un nouveau contrat</p>
           <p><a class="btn btn-default" href="contracts.php" role="button">Nouveau Contrat &raquo;
@@ -75,14 +75,14 @@ include ('lock.php');
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
-          <img class="img-circle" src="images/dollars.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="static/images/dollars.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Recu</h2>
           <p>Voici la section recus. Cliquez sur le bouton ci-dessous pour créer de nouvelles recus</p>
           <p><a class="btn btn-default" href="receipts.php" role="button">Nouveau Recu &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
 
         <div class="col-lg-4">
-          <img class="img-circle" src="images/store.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <img class="img-circle" src="static/images/store.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Rapports</h2>
           <p>Voici la section Rapports. Cliquez sur le bouton ci-dessous pour ouvrir le système de rapports</p>
           <p><a class="btn btn-default" href="reports.php" role="button">Ouvrir Systeme de rapports &raquo;</a></p>
@@ -100,7 +100,7 @@ include ('lock.php');
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="_js/jquery-2.1.1.min.js"></script>
-    <script src="_bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-2.1.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>

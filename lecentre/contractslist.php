@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Contracts List</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <script language="javascript" type="text/javascript" src="_js/jquery-2.1.1.min.js"></script>
-  <script language="javascript" type="text/javascript" src="_js/myagro_script.js"></script>
+    <script language="javascript" type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
+  <script language="javascript" type="text/javascript" src="static/js/myagro_script.js"></script>
 
-  <link rel="stylesheet" type="text/css" href="_css/style.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
   </head>
 
   <body>
@@ -124,6 +124,6 @@ for ($i = 1; $i <= $total_pages; $i++) {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="_bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
   </body>
 </html>

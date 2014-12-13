@@ -9,15 +9,15 @@ include ('lock.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Le Centre Receipts</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="_css/style.css">
-    <link rel="stylesheet" href="_css/jquery-ui.css" />
-    <link rel="stylesheet" type="text/css" href="_css/jquery.timepicker.css" />
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="static/css/style.css">
+    <link rel="stylesheet" href="static/css/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="static/css/jquery.timepicker.css" />
 
     <!-- Custom styles for this template -->
     <style type="text/css">
@@ -89,7 +89,7 @@ $row       = $rs_result->fetch_assoc();
             <div class="col-sm-12">
                 <div class="row">
                   <div class="col-md-6">
-                    <img src="images/myagrogreennotext.png" style="width:115px; height:115px" alt="MyAgro">
+                    <img src="static/images/myagrogreennotext.png" style="width:115px; height:115px" alt="MyAgro">
                   </div>
                   <div class="col-md-6">
                     <div class="form-group" style="padding-top:20px;">
@@ -425,14 +425,14 @@ $row       = $rs_result->fetch_assoc();
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="_js/jquery-2.1.1.min.js"></script>
-    <script src="_bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-2.1.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="_js/ie10-viewport-bug-workaround.js"></script>
-    <script src="_js/jquery-ui.js"></script>
-     <script type="text/javascript" src="_js/jquery.timepicker.min.js"></script>
-     <script src="_js/gen_validatorv4.js" type="text/javascript"></script>
-     <script type="text/javascript" src="_js/myagro_scripts_receipt.js"></script>
+    <script src="static/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="static/js/jquery-ui.js"></script>
+     <script type="text/javascript" src="static/js/jquery.timepicker.min.js"></script>
+     <script src="static/js/gen_validatorv4.js" type="text/javascript"></script>
+     <script type="text/javascript" src="static/js/myagro_scripts_receipt.js"></script>
     <script type="text/javascript">
 
     </script>

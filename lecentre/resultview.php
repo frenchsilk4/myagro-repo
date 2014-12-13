@@ -9,18 +9,18 @@ include ('lock.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Nouveau Contrat View</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <script language="javascript" type="text/javascript" src="_js/jquery-2.1.1.min.js"></script>
+    <script language="javascript" type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
 
 
-  <link rel="stylesheet" type="text/css" href="_css/style.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
   </head>
 
   <body>
@@ -69,7 +69,7 @@ $row       = $rs_result->fetch_assoc();
           <div class="col-md-6">
             <div id='myagro_prof'>
           <div>
-            <img class='space-image' src="images/whiteborderimage.png">
+            <img class='space-image' src="static/images/whiteborderimage.png">
           </div>
             <div class="section1" id="cont1" style="padding-left:5px">
               <div id='myagro_id'>
@@ -77,7 +77,7 @@ $row       = $rs_result->fetch_assoc();
                 <input type="text" width="30" name='myagro_num1' id='myagro_num1' value='<?php echo $row['clientID'];?>' readonly="true" />
               </div>
               <div id='myagro_addr' style="float:right; text-align:right;">
-                <img src="images/myagrogreen_2.png" style="width:85px; height:85px" alt="MyAgro">
+                <img src="static/images/myagrogreen_2.png" style="width:85px; height:85px" alt="MyAgro">
               </div>
               <div style="clear:both;"></div>
 
@@ -142,7 +142,7 @@ if ($sex === 'Female') {
               </table>
             </div>
             <div>
-              <img class='space-image' src="images/whiteborderimage.png" style="height:10px;"/>
+              <img class='space-image' src="static/images/whiteborderimage.png" style="height:10px;"/>
             </div>
             <div id='myagro_kiva' style="clear:both;">
               <h6> CONDITIONS GENERALES:</h6>
@@ -161,7 +161,7 @@ if ($sex === 'Female') {
 
             <div id='myagro_paquets' style="padding-right:5px">
         <div>
-            <img class='space-image' src="images/whiteborderimage.png">
+            <img class='space-image' src="static/images/whiteborderimage.png">
           </div>
           <h1> Choix des paquets 2015</h1>
           <div id='paquet-selection'>
@@ -232,7 +232,7 @@ while ($row = mysqli_fetch_array($rs_result, MYSQLI_ASSOC)) {
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="_bootstrap/js/bootstrap.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
     <script type="text/javascript">
     $(function(){
       $('#ajoutez_note_button').click(function(){

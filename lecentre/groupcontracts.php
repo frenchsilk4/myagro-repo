@@ -9,17 +9,17 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="images/myagrogreennotext3.ico">
+    <link rel="icon" href="static/images/myagrogreennotext3.ico">
 
     <title>Le Centre Nouveau Groupe</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="static/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link rel="stylesheet" href="_css/jquery-ui.css" />
+    <link rel="stylesheet" href="static/css/jquery-ui.css" />
 
-  <link rel="stylesheet" type="text/css" href="_css/style.css">
+  <link rel="stylesheet" type="text/css" href="static/css/style.css">
   <style type="text/css">
      .round
     {
@@ -90,7 +90,7 @@ session_start();
               </div>
             </div>
             <div>
-                 <img class='space-image' src="images/whiteborderimage.png">
+                 <img class='space-image' src="static/images/whiteborderimage.png">
             </div>
             <div class="section1" id="cont1" style="padding-left:5px">
               <div id='myagro_id' style="width:100%;">
@@ -152,7 +152,7 @@ session_start();
               </table>
             </div>
             <div>
-              <img class='space-image' src="images/whiteborderimage.png" style="height:5px;"/>
+              <img class='space-image' src="static/images/whiteborderimage.png" style="height:5px;"/>
             </div>
             <div class="row">
                   <div class="col-md-12">
@@ -162,13 +162,13 @@ session_start();
             <div class="bonusimages">
             <div class="row">
               <div class="col-md-4">
-                <input type="radio" name="bonus" value="BACKPACK" checked />&nbsp;&nbsp;<img src="images/bag.png" width="74.5" height="74.5" />
+                <input type="radio" name="bonus" value="BACKPACK" checked />&nbsp;&nbsp;<img src="static/images/bag.png" width="74.5" height="74.5" />
               </div>
               <div class="col-md-4">
-                <input type="radio" name="bonus" value="BUCKET" />&nbsp;&nbsp;<img src="images/bucket.png" width="74.5" height="74.5"/>
+                <input type="radio" name="bonus" value="BUCKET" />&nbsp;&nbsp;<img src="static/images/bucket.png" width="74.5" height="74.5"/>
               </div>
               <div class="col-md-4">
-                <input type="radio" name="bonus" value="DAP" />&nbsp;&nbsp;<img src="images/dap.png" width="74.5" height="74.5"/>
+                <input type="radio" name="bonus" value="DAP" />&nbsp;&nbsp;<img src="static/images/dap.png" width="74.5" height="74.5"/>
               </div>
 
             </div>
@@ -217,7 +217,7 @@ session_start();
           <div id='myagro_groupes' style="padding-right:5px">
 
             <div>
-                <img class='space-image' src="images/whiteborderimage.png">
+                <img class='space-image' src="static/images/whiteborderimage.png">
             </div>
             <h3> Membres du groupe 2015</h3>
             <div class="section1" id="cont5" >
@@ -259,9 +259,9 @@ session_start();
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-        <script language="javascript" type="text/javascript" src="_js/jquery-2.1.1.min.js"></script>
-  <script language="javascript" type="text/javascript" src="_js/myagro_script_groups.js"></script>
-    <script src="_bootstrap/js/bootstrap.min.js"></script>
-    <script src="_js/jquery-ui.js"></script>
+        <script language="javascript" type="text/javascript" src="static/js/jquery-2.1.1.min.js"></script>
+  <script language="javascript" type="text/javascript" src="static/js/myagro_script_groups.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/jquery-ui.js"></script>
   </body>
 </html>
