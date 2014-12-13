@@ -17,7 +17,7 @@ include ('lock.php');
     <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="_css/starter-template.css" rel="stylesheet">
+    <link href="_css/style.css" rel="stylesheet">
   </head>
 
   <body>

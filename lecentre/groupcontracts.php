@@ -17,7 +17,6 @@ session_start();
     <link href="_bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="_css/starter-template.css" rel="stylesheet">
     <link rel="stylesheet" href="_css/jquery-ui.css" />
 
   <link rel="stylesheet" type="text/css" href="_css/style.css">

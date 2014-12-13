@@ -20,7 +20,6 @@ include ('lock.php');
     <link rel="stylesheet" type="text/css" href="_css/jquery.timepicker.css" />
 
     <!-- Custom styles for this template -->
-    <link href="_css/starter-template.css" rel="stylesheet">
     <style type="text/css">
      .round
     {
