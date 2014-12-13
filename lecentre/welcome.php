@@ -1,3 +1,11 @@
+<?php
+// Copyright 2014 myAgro. All Rights Reserved.
+//
+// Description:
+// - Checks for login credentials. If none found, show login form. Otherwise redirect.
+// - Also handle form POST from login form, and if valid, redirect.
+include ('lock.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,9 +27,6 @@
   </head>
 
   <body>
-<?php
-include ('lock.php');
-?>
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -58,6 +63,7 @@ include ('lock.php');
       <!-- Example row of columns -->
         <!-- Three columns of text below the carousel -->
       <div class="row">
+
         <div class="col-lg-4">
           <img class="img-circle" src="images/training.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Contrats</h2>
@@ -67,12 +73,14 @@ include ('lock.php');
 <a class="btn btn-default" href="groupcontracts.php" role="button">Groupe Contrat &raquo;
           </a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
           <img class="img-circle" src="images/dollars.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Recu</h2>
           <p>Voici la section recus. Cliquez sur le bouton ci-dessous pour créer de nouvelles recus</p>
           <p><a class="btn btn-default" href="receipts.php" role="button">Nouveau Recu &raquo;</a></p>
         </div><!-- /.col-lg-4 -->
+
         <div class="col-lg-4">
           <img class="img-circle" src="images/store.jpg" alt="Generic placeholder image" style="width: 140px; height: 140px;">
           <h2>Rapports</h2>
