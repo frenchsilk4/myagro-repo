@@ -1,5 +1,5 @@
 body {
-    background-color: #eee;
+    background-color: #fff;
     padding-top: 50px;
     margin-left: auto;
 	margin-right: auto;
@@ -17,11 +17,11 @@ table, th, td {
     vertical-align: top;
     text-align: center;
 }
-td{
+td {
     padding-top: 5px;
     padding-bottom: 5px;
 }
-th{
+th {
     padding-left: 5px;
     background-color: #a1a1a1;
     color: white;
@@ -46,6 +46,14 @@ table.myagro_products li, table.myagro_arachide_products li {
 }
 table.myagro_products ul , table.myagro_arachide_products ul {
     padding-left: 5px;
+}
+table.report th, td {
+    text-align: left;
+    background-color: #ffffff;
+    color: black;
+}
+td.number {
+    text-align: right;
 }
 div.myagro_prod {
     padding-top: 10px;

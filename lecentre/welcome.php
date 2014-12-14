@@ -40,7 +40,7 @@ include ('header.php');
             <h2>Rapports</h2>
             <p>Voici la section Rapports. Cliquez sur le bouton ci-dessous pour ouvrir le système de rapports</p>
             <p>
-                <a class="btn btn-default" href="reports.php" role="button">Ouvrir Systeme de rapports &raquo;</a>
+                <a class="btn btn-default" href="report_list.php" role="button">Ouvrir Systeme de rapports &raquo;</a>
             </p>
         </div>
 

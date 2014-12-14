@@ -38,6 +38,7 @@
                 <li><a href="contractslist.php">Liste de contrats</a></li>
                 <li><a href="searchpage.php">Chercher contrats</a></li>
                 <li><a href="receiptslist.php">Liste de recus</a></li>
+                <li><a href="report_list.php">Liste de rapports</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="form" action='logout.php' method="post">
                 <div class="form-group">
