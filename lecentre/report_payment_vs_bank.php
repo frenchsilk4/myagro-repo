@@ -33,7 +33,7 @@ include ('header.php');
         <tbody>
         <?php while ($zone = mysqli_fetch_array($zone_results, MYSQLI_ASSOC)) {
             ?>
-            <tr>
+            <tr class="info">
                 <td><strong><?php echo $zone['name']; ?></strong></td>
                 <td></td>
                 <td class="number"><strong><?php echo number_format($zone['sms_total']); ?></strong></td>

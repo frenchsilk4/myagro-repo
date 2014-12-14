@@ -35,7 +35,7 @@ include ('header.php');
         <tbody>
         <?php while ($agent = mysqli_fetch_array($agent_results, MYSQLI_ASSOC)) {
             ?>
-            <tr>
+            <tr class="info">
                 <td><strong><?php echo $agent['name']; ?></strong></td>
                 <td></td>
                 <td></td>
