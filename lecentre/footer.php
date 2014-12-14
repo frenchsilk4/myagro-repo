@@ -7,7 +7,7 @@
 <div class="container">
     <hr>
     <footer>
-        <p>&copy; myAgro 2014</p>
+        <p>Copyright &copy; 2014 myAgro. All rights reserved.</p>
     </footer>
 </div>
 
