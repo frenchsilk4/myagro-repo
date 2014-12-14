@@ -31,6 +31,10 @@ include ('header.php');
                     <td><a href="report_vendor_payment.php" class="btn btn-large btn-primary">Vendor Payment</a></td>
                     <td>Vendor payments to agents.</td>
                 </tr>
+                <tr>
+                    <td><a href="report_enrollment.php" class="btn btn-large btn-primary">Enrollment</a></td>
+                    <td>Enrollment numbers (# clients, # hectares, $) for each zone and agent.</td>
+                </tr>
             </tbody>
         </table>
 
